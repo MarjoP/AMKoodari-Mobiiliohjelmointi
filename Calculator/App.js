@@ -22,8 +22,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+
       <Text>Calculator</Text>
-  <Text>{result}</Text>
+      <Text>{result}</Text>
       <TextInput
         style={{ width: 200, borderColor: 'gray', borderWidth: 1 }}
         onChangeText={text => setText(text)}
@@ -53,6 +54,7 @@ export default function App() {
 }
 const styles = StyleSheet.create({
   container: {
+    padding:20,
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
@@ -63,9 +65,5 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     
   },
-  nappi: {
-   padding: 10,
-   width:20
-  }
 
 });

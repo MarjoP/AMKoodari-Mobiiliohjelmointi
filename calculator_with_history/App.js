@@ -29,21 +29,22 @@ const substract = () => {
 
   return (
     <View style={styles.container}>
-     
-        <Text style ={styles.header}>Calculator with history</Text>
       
-      <Text>{result}</Text>
+      <View  style ={styles.header}>
+       <Text>Calculator with history</Text>
+       <Text>{result}</Text>
+      </View>
 
-      <TextInput style= {styles.txtInput} onChangeText={text => setFirst(text)} value={first} keyboardType={'number-pad'}/>
-      <TextInput style= {styles.txtInput} onChangeText={text => setSecond(text)} value={second} keyboardType={'number-pad'}/>
-      
+
+
+      <View style={styles.inputContainer}>
+        <TextInput style= {styles.txtInput} onChangeText={text => setFirst(text)} value={first} keyboardType={'number-pad'}/>
+        <TextInput style= {styles.txtInput} onChangeText={text => setSecond(text)} value={second} keyboardType={'number-pad'}/>
+      </View>
+
       <View style={styles.buttoncontainer}>
-        <View style={styles.button} >
-          <Button style = {{borderColor:'darkgray', borderWidth:1}} onPress={add} title="+"/>
-        </View>
-        <View style={styles.button}>
-          <Button onPress={substract} title="-"/>
-        </View>
+          <Button style={styles.but} onPress={add} title="+"/>
+          <Button style={styles.but} onPress={substract} title="-"/> 
       </View>
 
       <View style={styles.hist}>
@@ -60,27 +61,35 @@ const substract = () => {
 
 const styles = StyleSheet.create({
   container: {
-    padding:100,
+    padding:20,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width:400,
+    alignItems:'center',
+    justifyContent:'center',
     flex:1,
   },
   header: {
     fontSize:20,
-    margin:10,
-    height:100,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex:1,
+  },
+  res: {
+    flex:1,
+  },
+  inputContainer: {
+    flex:2,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   buttoncontainer: {
     flex:1,
     flexDirection:'row',
+    alignItems: 'center',
     justifyContent:'space-between',
   }, 
-  button: {
-  padding:10,
-  height:50,
-  width:50,
+  but: {
+    height:50,
+    width:50,
   },
   txtInput: {
     borderColor:'darkblue',
@@ -88,8 +97,10 @@ const styles = StyleSheet.create({
     width:200,
     height:50,
     margin:10,
+    flex:1,
   },
   hist: {
+    flex:5,
     marginTop:70,
   }
 });
