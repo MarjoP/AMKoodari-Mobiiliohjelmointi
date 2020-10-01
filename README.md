@@ -10,4 +10,4 @@ Mobiiliohjelmointi-kurssin harjoitukset
 - Tehtävä 7: [Euro Converter](/euro_converter/App.js)
 - Tehtävä 8: [Find Address](/find_address/App.js)
 - Tehtävä 9: [Find Address With Location](/find_address_with_location/App.js)
-- Tehtävä 10: [My places App](/my_places_app/App.js)
+- Tehtävä 10: [Shopping list with database](/shopping_list_with_database/App.js)
