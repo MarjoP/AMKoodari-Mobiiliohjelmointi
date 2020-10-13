@@ -13,3 +13,5 @@ Mobiiliohjelmointi-kurssin harjoitukset
 - Tehtävä 10: [Shopping list with database](/shopping_list_with_database/App.js)
 - Tehtävä 11: [Contacts](/contacts/App.js)
 - Tehtävä 12: [Text to Speech](/text_to_speech/App.js)
+- Tehtävä 13: [Shopping list with Native Elements](/shopping_list_with_native_elements.js)
+- Tehtävä 14: [MyPlaces app](/myplaces_app.js)
