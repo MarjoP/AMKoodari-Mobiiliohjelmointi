@@ -11,7 +11,7 @@ Mobiiliohjelmointi-kurssin harjoitukset
 - Tehtävä 8: [Find Address](/find_address/App.js)
 - Tehtävä 9: [Find Address With Location](/find_address_with_location/App.js)
 - Tehtävä 10: [Shopping list with database](/shopping_list_with_database/App.js)
-- Tehtävä 11: [Shopping list with firebase](/shoppoing_list_with_firebase/App.js)
+- Tehtävä 11: [Shopping list with firebase](/shopping_list_with_firebase/App.js)
 - Tehtävä 12: [Contacts](/contacts/App.js)
 - Tehtävä 13: [Text to Speech](/text_to_speech/App.js)
 - Tehtävä 14: [Shopping list with Native Elements](/shopping_list_with_native_elements/App.js)
