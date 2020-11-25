@@ -1,6 +1,6 @@
-#MEMORY GAME
+# MEMORY GAME
 
-##Introduction
+## Introduction
 The memory game application has two game modes; a Classic memory game where the player tries to find matching pairs and a Repeat game where the player needs to remember the correct order of the items he/she hears.
 In Classic game the player can choose from two different card themes; 'Pokemon' and 'Space' and from three difficulty levels. 
 
@@ -8,7 +8,7 @@ Game scores are stored in a database and TOP 20 scores of each Game mode/level a
 
 The app is built using **React Native**.
 
-##App structure and screens
+## App structure and screens
 
 *  **Memory game tab**: This is the starting screen for the Classic memory game where the player and type in his name and select the theme and difficulty levels. After hitting the Start Game button, the player is forwarded to the actual game view based on the selections. On bottom there is a small tooltip to show how the game score will be counted. 
 
@@ -22,7 +22,7 @@ New game can be started right away from the same screen.
 
 
 
-##Functionality and used technologies and main components
+## Functionality and used technologies and main components
 * App.js
     * **Header** to show the app name
     * **MaterialTopTabNavigator** (moving between classic game, repeat game and scoreboard)

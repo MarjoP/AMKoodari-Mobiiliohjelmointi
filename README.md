@@ -16,4 +16,4 @@ Mobiiliohjelmointi-kurssin harjoitukset
 - Tehtävä 13: [Text to Speech](/text_to_speech/App.js)
 - Tehtävä 14: [Shopping list with Native Elements](/shopping_list_with_native_elements/App.js)
 - Tehtävä 15: [MyPlaces app](/myplaces_app/App.js)
-- Projekti: [Memory Game app](/memory_game/App.js)
+- Projekti: [Memory Game app](/memory_game)
